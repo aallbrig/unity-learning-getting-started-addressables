@@ -78,27 +78,15 @@ public class PlayerController : MonoBehaviour
 
     void Update()
     {
-#if UNITY_EDITOR || UNITY_STANDALONE
-        if (Input.GetMouseButton(0))
-        {
+        if (Input.GetMouseButton(0)) {
             MoveToPosition(Input.mousePosition);
-        }
-        else
-        {
+        } else if (Input.touchCount > 0) {
+            Touch touch = Input.GetTouch(0);
+            MoveToPosition(touch.position);
+        } else {
             m_Rigidbody.velocity = Vector3.zero;
         }
 
-#elif UNITY_IOS || UNITY_ANDROID
-        if (Input.touchCount > 0)
-        {
-            Touch touch = Input.GetTouch(0);
-            MoveToPosition(touch.position);
-        }
-        else
-        {
-            m_Rigidbody.velocity = Vector3.zero;
-        }
-#endif
         // apply animation
         m_AnimatorController.SetFloat(m_VelocityHash, m_Rigidbody.velocity.magnitude);
     }

@@ -23,9 +23,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Level_04.unity
     guid: 03d0fe3f4c117ad4ba958794ccfc3ac6
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/LoadingScene.unity
     guid: a1e01d398699cc940a960600837600bd
   m_configObjects:
-    com.unity.addressableassets: {fileID: 11400000, guid: e4260e4c45c4e15428f3736155b07e3f,
+    com.unity.addressableassets: {fileID: 11400000, guid: f08d2bb1d1b7e4990afc2443227ab764,
       type: 2}
