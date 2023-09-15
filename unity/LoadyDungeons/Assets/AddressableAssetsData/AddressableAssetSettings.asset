@@ -46,6 +46,9 @@ MonoBehaviour:
   m_GroupAssets:
   - {fileID: 11400000, guid: a507e77418aa244e7bfa06fd0237587c, type: 2}
   - {fileID: 11400000, guid: 70c3c0d1da9304f7da85704ff14d99c7, type: 2}
+  - {fileID: 11400000, guid: 76fe83166c0fd4b19a58db9107948421, type: 2}
+  - {fileID: 11400000, guid: 54378cd40e63248ed8938cf097389407, type: 2}
+  - {fileID: 11400000, guid: e3f5387d064a34e8083a64320cef9563, type: 2}
   m_BuildSettings:
     m_CompileScriptsInVirtualMode: 0
     m_CleanupStreamingAssetsAfterBuilds: 1
@@ -67,6 +70,8 @@ MonoBehaviour:
         m_Value: ServerData/[BuildTarget]
       - m_Id: dab9ddf0615df4f818a5d1e94061c0b8
         m_Value: http://[PrivateIpAddress]:[HostingServicePort]
+      - m_Id: 3cc8c71b4639b4864a14be9b0837fb16
+        m_Value: DEFAULT
     - m_InheritedParent: 
       m_Id: e7f64e94adcee4ce28c13431a0d3c746
       m_ProfileName: Development
@@ -81,6 +86,8 @@ MonoBehaviour:
         m_Value: ServerData/[BuildTarget]
       - m_Id: dab9ddf0615df4f818a5d1e94061c0b8
         m_Value: http://[PrivateIpAddress]:[HostingServicePort]
+      - m_Id: 3cc8c71b4639b4864a14be9b0837fb16
+        m_Value: DEV
     - m_InheritedParent: 
       m_Id: c60aec22ba81d40acab1b165729d0a11
       m_ProfileName: Test
@@ -95,6 +102,8 @@ MonoBehaviour:
         m_Value: ServerData/[BuildTarget]
       - m_Id: dab9ddf0615df4f818a5d1e94061c0b8
         m_Value: http://[PrivateIpAddress]:[HostingServicePort]
+      - m_Id: 3cc8c71b4639b4864a14be9b0837fb16
+        m_Value: QA
     - m_InheritedParent: 
       m_Id: e888770dc608744cba24cc1b5047e79a
       m_ProfileName: Production
@@ -109,6 +118,8 @@ MonoBehaviour:
         m_Value: ServerData/[BuildTarget]
       - m_Id: dab9ddf0615df4f818a5d1e94061c0b8
         m_Value: http://[PrivateIpAddress]:[HostingServicePort]
+      - m_Id: 3cc8c71b4639b4864a14be9b0837fb16
+        m_Value: PROD
     m_ProfileEntryNames:
     - m_Id: a7b54b4fd827a4fd7b8ab1eea91857af
       m_Name: BuildTarget
@@ -125,6 +136,9 @@ MonoBehaviour:
     - m_Id: dab9ddf0615df4f818a5d1e94061c0b8
       m_Name: Remote.LoadPath
       m_InlineUsage: 0
+    - m_Id: 3cc8c71b4639b4864a14be9b0837fb16
+      m_Name: RemoteHost
+      m_InlineUsage: 0
     m_ProfileVersion: 1
   m_LabelTable:
     m_LabelNames:
@@ -132,6 +146,7 @@ MonoBehaviour:
   m_SchemaTemplates: []
   m_GroupTemplateObjects:
   - {fileID: 11400000, guid: b4f7a89080d654e9f9ce3372026e8808, type: 2}
+  - {fileID: 11400000, guid: 2451cc46b06fa4ffcaa65ef340779581, type: 2}
   m_InitializationObjects: []
   m_CertificateHandlerType:
     m_AssemblyName: 
@@ -142,7 +157,7 @@ MonoBehaviour:
   - {fileID: 11400000, guid: d19b6526ad112415d929f7c8519bfae7, type: 2}
   - {fileID: 11400000, guid: 7594627766ea54f0db41e0dd9b985283, type: 2}
   - {fileID: 11400000, guid: dac028ba502ed48088c1b42717581f31, type: 2}
-  m_ActiveProfileId: e7f64e94adcee4ce28c13431a0d3c746
+  m_ActiveProfileId: b3bf92939f2f048a8b6cfe6e9e59983c
   m_HostingServicesManager:
     m_HostingServiceInfos: []
     m_Settings: {fileID: 11400000}
